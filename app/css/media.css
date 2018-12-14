@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px) {
+  .top-nav-btn {
+    display: block;
+  }
+  .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+    display: none;
+    margin-top: 46px;
+  }
+  li {
+    line-height: 2;
+  }
+  ::after {
+    display: none;
+  }
+  .menu__activ {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .logo {
+    position: absolute;
+    left: 15px;
+    top: 50px;
+  }
+  .header__h1 {
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+  .services__reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .services__colums {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .services__web_text {
+    max-width: 100%;
+  }
+  .services__web_h2 {
+    font-size: 50px;
+  }
+  .blok__contact textarea {
+    width: 80%;
+  }
+  .blok__contact input {
+    width: 80%;
+  }
+  .contact__tel {
+    text-align: left;
+    padding: 0 0 0 40px;
+  }
+  .contact__email {
+    text-align: left;
+    padding: 0 0 0 40px;
+    margin-bottom: 30px;
+  }
+  .contact__blok {
+    margin: 0 auto;
+  }
+  .container {
+    padding: 0 0 0 0;
+  }
+  .skill__icon {
+    margin-right: 0;
+  }
+  .skill__pag {
+    padding: 0;
+  }
+  .triangle_left:after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    bottom: 103px;
+    border: 15px solid transparent;
+    border-right: 10px solid #e8e8e8;
+  }
+  .triangle_left:before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    bottom: 103px;
+    border: 15px solid transparent;
+    border-right: 10px solid #e8e8e8;
+  }
+  .triangle_right:after {
+    display: none;
+  }
+  .triangle_right:before {
+    display: none;
+  }
+}
